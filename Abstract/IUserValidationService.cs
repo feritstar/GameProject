@@ -6,6 +6,6 @@ namespace GameProject
 {
     interface IUserValidationService
     {
-        public bool Validate(Gamer gamer);
+        bool Validate(Gamer gamer);
     }
 }
